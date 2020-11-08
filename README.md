@@ -10,7 +10,7 @@ The project uses:
 
 ## Video demo
 
-[![stripe-checkout-app](https://github.com/oscarlira090/stripe-checkout-app/blob/main/checkout.PNG)](https://youtu.be/DcUcvKfMr4o)
+[![stripe-checkout-app](https://github.com/oscarlira090/stripe-checkout-app/blob/main/checkout.PNG)](https://drive.google.com/file/d/1YhR1aIlvstp-x5kXZ4e4ctNWzGFJq18z/view)
 
 ## Usage
 
