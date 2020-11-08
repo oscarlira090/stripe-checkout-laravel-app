@@ -15,7 +15,7 @@ The project uses:
 ## Usage
 
 ``` bash
-# Instalar dependencias
+# Install dependencies
 composer install
 npm install
 ```
