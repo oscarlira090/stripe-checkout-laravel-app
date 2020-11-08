@@ -1,8 +1,8 @@
-# STRIPE Laravel y Vue
- 
-Aplicación de PHP con Laravel y Vue donde se integra el checkout de STRIPE
+# STRIPE checkout integration with Laravel and Vue
 
-El proyecto usa:
+This app shows a small example of using STRIPE checkout in a Laravel app
+
+The project uses:
 
 - Laravel
 - Vue.js
@@ -12,7 +12,7 @@ El proyecto usa:
 
 [![stripe-checkout-app](https://github.com/oscarlira090/stripe-checkout-app/blob/main/checkout.PNG)](https://youtu.be/DcUcvKfMr4o)
 
-## Uso
+## Usage
 
 ``` bash
 # Instalar dependencias
