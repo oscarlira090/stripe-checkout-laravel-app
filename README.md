@@ -10,4 +10,4 @@ El proyecto usa:
 
 ## Video demo
 
-[![Groceries-vue video demo](https://drive.google.com/file/d/1DMh3BMnGSkAYUWrvbqyrZHHbLD703f8K/view)
+[![Groceries-vue video demo](https://github.com/oscarlira090/stripe-checkout-app)
