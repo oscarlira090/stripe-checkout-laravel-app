@@ -1,7 +1,7 @@
 <template>
   <tr >
-    <td class="col-sm-3"><input v-model="p_item.product"  /></td>
-    <td class="col-sm-3"><input style="width:100px" type="number" v-model="p_item.price"  /></td>
+    <td class="col-sm-3">{{p_item.product}}</td>
+    <td class="col-sm-3">{{p_item.price}}</td>
     <td class="col-sm-3"><input style="width:50px" type="number" min="1" v-model="p_item.quantity"  /></td>
     <td class="col-sm-3"><strong>${{total}}</strong></td>
     <td><button  class="btn btn-danger" @click="remove"><i class="fa fa-times" aria-hidden="true"></i></button></td> 

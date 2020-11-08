@@ -69,7 +69,7 @@ export default {
           },
           {
             product: "product 2",
-            price: 100,
+            price: 50,
             quantity: 1,
             total: 0,
           },
@@ -85,9 +85,9 @@ export default {
     add() {
       this.cart.items.push({
         product: "product" + Math.floor(Math.random() * 100) + 1,
-        price: 100,
+        price: Math.floor(Math.random() * 100) + 50,
         quantity: 1,
-        total: 100,
+        total: this.price * this.quantity,
       });
       this.updateCartTotal();
     },

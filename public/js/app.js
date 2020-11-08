@@ -1976,7 +1976,7 @@ __webpack_require__.r(__webpack_exports__);
           total: 0
         }, {
           product: "product 2",
-          price: 100,
+          price: 50,
           quantity: 1,
           total: 0
         }]
@@ -1990,9 +1990,9 @@ __webpack_require__.r(__webpack_exports__);
     add: function add() {
       this.cart.items.push({
         product: "product" + Math.floor(Math.random() * 100) + 1,
-        price: 100,
+        price: Math.floor(Math.random() * 100) + 50,
         quantity: 1,
-        total: 100
+        total: this.price * this.quantity
       });
       this.updateCartTotal();
     },
@@ -37817,51 +37817,9 @@ var render = function() {
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
   return _c("tr", [
-    _c("td", { staticClass: "col-sm-3" }, [
-      _c("input", {
-        directives: [
-          {
-            name: "model",
-            rawName: "v-model",
-            value: _vm.p_item.product,
-            expression: "p_item.product"
-          }
-        ],
-        domProps: { value: _vm.p_item.product },
-        on: {
-          input: function($event) {
-            if ($event.target.composing) {
-              return
-            }
-            _vm.$set(_vm.p_item, "product", $event.target.value)
-          }
-        }
-      })
-    ]),
+    _c("td", { staticClass: "col-sm-3" }, [_vm._v(_vm._s(_vm.p_item.product))]),
     _vm._v(" "),
-    _c("td", { staticClass: "col-sm-3" }, [
-      _c("input", {
-        directives: [
-          {
-            name: "model",
-            rawName: "v-model",
-            value: _vm.p_item.price,
-            expression: "p_item.price"
-          }
-        ],
-        staticStyle: { width: "100px" },
-        attrs: { type: "number" },
-        domProps: { value: _vm.p_item.price },
-        on: {
-          input: function($event) {
-            if ($event.target.composing) {
-              return
-            }
-            _vm.$set(_vm.p_item, "price", $event.target.value)
-          }
-        }
-      })
-    ]),
+    _c("td", { staticClass: "col-sm-3" }, [_vm._v(_vm._s(_vm.p_item.price))]),
     _vm._v(" "),
     _c("td", { staticClass: "col-sm-3" }, [
       _c("input", {
