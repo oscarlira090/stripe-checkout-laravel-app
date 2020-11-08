@@ -11,3 +11,11 @@ El proyecto usa:
 ## Video demo
 
 [![stripe-checkout-app](https://github.com/oscarlira090/stripe-checkout-app/blob/main/checkout.PNG)](https://youtu.be/DcUcvKfMr4o)
+
+## Uso
+
+``` bash
+# Instalar dependencias
+composer install
+npm install
+```
