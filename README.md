@@ -19,3 +19,4 @@ The project uses:
 composer install
 npm install
 ```
+![Alt Text](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif)
