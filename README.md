@@ -10,7 +10,7 @@ The project uses:
 
 ## Video demo
 
-![stripe-checkout-app](https://github.com/oscarlira090/stripe-checkout-laravel-app/blob/main/VID-20201108-WA0000.gif)
+![stripe-checkout-app](https://github.com/oscarlira090/stripe-checkout-laravel-app/blob/main/stripe_laravel_app.gif)
 
 ## Usage
 
